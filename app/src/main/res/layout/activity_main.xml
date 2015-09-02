@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="102dp"
+        android:layout_height="110dp"
+        android:background="@drawable/light_off"
+        android:text="ToggleButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff232323"
+        android:longClickable="false"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/voice_box"
+        android:textColor="#ffff2c25" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/mic"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/regulator1"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:max="5"
+        android:layout_toStartOf="@+id/textView"
+        style="@style/AppBaseTheme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/regulator1"
+        android:layout_alignBottom="@+id/regulator1"
+        android:textColor="#ff2ae2ff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="false" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Home</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_send">SEND</string>
+    <string name="str_something">something</string>
+    <string name="str_stop">STOP</string>
+    <string name="str_start">Start</string>
+    <string name="str_settings_update">Update Settings</string>
+    <string name="voice_box">Voice Command</string>
+    <string name="enter_ip">Please enter the IP address</string>
+</resources>

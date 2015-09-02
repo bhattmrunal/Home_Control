@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mrunal/install/Android/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/mrunal/Android Studio Projects/Home_Control/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-576f5ec119b7aec46291f40a9c07974191aeb349.jar" />
+    </item>
+
+</items>

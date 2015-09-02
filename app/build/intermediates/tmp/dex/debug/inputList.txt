@@ -1,0 +1,2 @@
+/home/mrunal/Android Studio Projects/Home_Control/app/build/intermediates/classes/debug
+/home/mrunal/Android Studio Projects/Home_Control/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-576f5ec119b7aec46291f40a9c07974191aeb349.jar
